@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suit">
+	<test name="test1">
+		<classes>
+			<class name="testNG.TestNgAnotionsOrderOfExecution" />
+			<methods>
+				<include name="method1" />
+				<include name="method2" />
+			</methods>
+		</classes>
+	</test>
+	<test name="test2">
+		<classes>
+			<class name="testNG.TestNgAnotionsOrderOfExecution" />
+			<methods>
+				<include name="method3" />
+				<include name="method4" />
+			</methods>
+		</classes>
+	</test>
+	<test name="test3">
+		<classes>
+			<class name="testNG.TestNgAnotionsOrderOfExecution" />
+			<methods>
+				<include name="method5" />
+				<include name="method6" />
+			</methods>
+		</classes>
+	</test>
+</suite>

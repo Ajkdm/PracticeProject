@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+	<test name="test1">
+		<groups>
+			<define name="daily run">
+				<include name="sanity" />
+				<include name="Functionality" />
+			</define>
+			<define name="weekly run">
+				<include name="regression" />
+				<include name="smoke" />
+				<include name="functionality" />
+			</define>
+			<run>
+				<include name="daily run" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.GroupsClass1" />
+			<class name="testNG.GroupsClass2" />
+		</classes>
+	</test>
+</suite>

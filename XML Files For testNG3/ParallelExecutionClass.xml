@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite" paralle="tests">
+	<parameter name="url" value="https://www.facebook.com/" />
+	<parameter name="expTitle"
+		value="Facebook – log in or sign up" />
+	<test name="test1">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="email" value="abcdef" />
+		<parameter name="pwd" value="12345" />
+		<classes>
+			<class name="testNG3.ParametersClass" />
+		</classes>
+	</test>
+	<test name="test2" enabled="true">
+		<parameter name="browserName" value="edge" />
+		<parameter name="email" value="ghijkl" />
+		<parameter name="pwd" value="67890" />
+		<classes>
+			<class name="testNG3.ParametersClass" />
+		</classes>
+	</test>
+</suite>

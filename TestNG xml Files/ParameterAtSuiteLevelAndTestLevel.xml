@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+	<parameter name="url" value="https://www.facebook.com/login/" />
+	<test name="chrometest1">
+		<parameter name="browserName" value="Chrome" />
+
+		<parameter name="email" value="abcdef" />
+		<parameter name="password" value="123456" />
+		<classes>
+			<class name="testNG.ParameterAtSuiteLevelAndTestLevel" />
+		</classes>
+	</test>
+	
+	<test name="Edgetest1">
+		<parameter name="browserName" value="Edge" />
+
+		<parameter name="email" value="ghijkl" />
+		<parameter name="password" value="987654" />
+		<classes>
+			<class name="testNG.ParameterAtSuiteLevelAndTestLevel" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+	<test name="test1">
+		<groups>
+			<define name="dailyRunableGroup">
+				<include name="sanity" />
+				<include name="smoke" />
+			</define>
+			<define name="weeklyGroup">
+				<include name="functional" />
+			</define>
+			<run>
+				<include name="weeklyGroup" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG3.GroupsClass1" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+	<groups>
+		<run>
+			<include name="sanity" />
+		</run>
+	</groups>
+	<test name="test">
+		<groups>
+			<run>
+				<include name="smoke" />
+				<exclude name="regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.GroupsClass1" />
+			<class name="testNG.GroupsClass2" />
+		</classes>
+	</test>
+</suite>

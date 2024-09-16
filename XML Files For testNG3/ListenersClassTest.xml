@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+<listeners>
+<listener class-name="testNG3.ListenerClass1"/>
+</listeners>
+	<test name="test1">
+		<classes>
+			
+			<class name="testNG3.TestMethodsForListeners3" />
+		</classes>
+	</test>
+	<test name="test2">
+		<classes>
+			<class name="testNG3.TestMethodsForListeners" />
+			
+		</classes>
+	</test>
+	
+	<test name="test3">
+		<classes>
+			<class name="testNG3.TestMethodsForListeners" />
+			
+		</classes>
+	</test>
+</suite>

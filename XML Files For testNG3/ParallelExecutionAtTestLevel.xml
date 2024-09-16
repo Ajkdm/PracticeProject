@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+	<test name="test1" parallel="classes">
+		<classes>
+			<class name="testNG3.ParallelExecutionClass2" />
+			<methods>
+			<include name="testCaseFB"/>
+			<include name="testCaseGoogle"/>
+			</methods>
+		<class name="testNG3.ParallelExecutionClass2" />
+			<methods>
+			<include name="testCaseGmail"/>
+			<include name="testCaseYoutube"/>
+			</methods>
+		</classes>
+	</test>
+</suite>
