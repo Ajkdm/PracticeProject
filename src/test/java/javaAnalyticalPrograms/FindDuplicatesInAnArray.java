@@ -30,13 +30,11 @@ public class FindDuplicatesInAnArray
 		{
 			for(int j=i+1;j<arr.length;j++) 
 			{
-				if(temp!=arr[j]) 
-				{
-					if(arr[i]==arr[j]) 
+					if(arr[i]==arr[j] && temp!=arr[j]) 
 					{
 						System.out.print(arr[j]+",");
 					}
-				}
+				
 				
 			}
 			temp=arr[i];

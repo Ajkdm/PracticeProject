@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestPriorityClass 
 {
-	@Test(priority=-4)
+	@Test(priority=-3)
 	public void login() 
 	{
 		System.out.println("Login successfull");
@@ -22,7 +22,7 @@ public class TestPriorityClass
 		System.out.println("verifyTaskCreation");
 	}
 	
-	@Test(priority=-3)
+	@Test(priority=1)
 	public void createTask() 
 	{
 		System.out.println("createTask");

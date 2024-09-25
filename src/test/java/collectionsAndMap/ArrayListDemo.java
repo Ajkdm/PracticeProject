@@ -23,6 +23,7 @@ public class ArrayListDemo
 		myList.add(null);
 		myList.add(true);
 
+		System.out.println(myList.get(1));
 		//Print all elements
 		System.out.println(myList); //[Welcome, 100, 10.5, A, null, 100, null, true]
 

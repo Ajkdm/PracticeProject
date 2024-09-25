@@ -3,6 +3,7 @@ package collectionsAndMap;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class HashSetDemo
@@ -62,5 +63,23 @@ public class HashSetDemo
 		
 		//check is empty
 		System.out.println(set.isEmpty());
+		
+		LinkedHashSet set1=new LinkedHashSet();
+		//Set set=new HashSet();
+		//HashSet<String> set=new HashSet<String>();
+		
+		//Add Elements
+		set1.add(100);
+		set1.add(10.50);
+		set1.add(true);
+		set1.add("Hello");
+		set1.add(100);
+		set1.add('A');
+		set1.add(100);
+		set1.add(null);
+		set1.add(null);
+		set1.add(2);
+		System.out.println(set);
+		System.out.println(set1);
 	}
 }
